@@ -10,6 +10,27 @@
 		689A354A1BECA6C00018F653 /* helper_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35491BECA6C00018F653 /* helper_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		689A35511BECA6C00018F653 /* helper_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A35461BECA6C00018F653 /* helper_ios.framework */; };
 		689A35561BECA6C00018F653 /* helper_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35551BECA6C00018F653 /* helper_iosTests.m */; };
+		689A35761BECAAF00018F653 /* CircularProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35601BECAAF00018F653 /* CircularProgressBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A35771BECAAF00018F653 /* CircularProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35611BECAAF00018F653 /* CircularProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A35781BECAAF00018F653 /* TimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35621BECAAF00018F653 /* TimeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A35791BECAAF00018F653 /* TimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35631BECAAF00018F653 /* TimeHelper.m */; };
+		689A357A1BECAAF00018F653 /* DHHorizontalLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35651BECAAF00018F653 /* DHHorizontalLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A357B1BECAAF00018F653 /* DHHorizontalLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35661BECAAF00018F653 /* DHHorizontalLayoutManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A357C1BECAAF00018F653 /* DHHorizontalLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35671BECAAF00018F653 /* DHHorizontalLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A357D1BECAAF00018F653 /* DHHorizontalLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35681BECAAF00018F653 /* DHHorizontalLayoutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A357E1BECAAF00018F653 /* DHLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35691BECAAF00018F653 /* DHLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A357F1BECAAF00018F653 /* DHLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A356A1BECAAF00018F653 /* DHLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A35801BECAAF00018F653 /* DHLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A356B1BECAAF00018F653 /* DHLayoutManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A35811BECAAF00018F653 /* DHLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A356C1BECAAF00018F653 /* DHLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A35821BECAAF00018F653 /* DHLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A356D1BECAAF00018F653 /* DHLayoutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A35831BECAAF00018F653 /* DHVerticalLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A356E1BECAAF00018F653 /* DHVerticalLayoutManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A35841BECAAF00018F653 /* DHVerticalLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A356F1BECAAF00018F653 /* DHVerticalLayoutManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A35851BECAAF00018F653 /* DHVerticalLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35701BECAAF00018F653 /* DHVerticalLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A35861BECAAF00018F653 /* DHVerticalLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35711BECAAF00018F653 /* DHVerticalLayoutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A35871BECAAF00018F653 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35721BECAAF00018F653 /* UIView+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A35881BECAAF00018F653 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35731BECAAF00018F653 /* UIView+Layout.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		689A35891BECAAF00018F653 /* UIView+Sizes.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35741BECAAF00018F653 /* UIView+Sizes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689A358A1BECAAF00018F653 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35751BECAAF00018F653 /* UIView+Sizes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +50,27 @@
 		689A35501BECA6C00018F653 /* helper_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helper_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		689A35551BECA6C00018F653 /* helper_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helper_iosTests.m; sourceTree = "<group>"; };
 		689A35571BECA6C00018F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689A35601BECAAF00018F653 /* CircularProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressBar.m; sourceTree = "<group>"; };
+		689A35611BECAAF00018F653 /* CircularProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressBar.h; sourceTree = "<group>"; };
+		689A35621BECAAF00018F653 /* TimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeHelper.h; sourceTree = "<group>"; };
+		689A35631BECAAF00018F653 /* TimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeHelper.m; sourceTree = "<group>"; };
+		689A35651BECAAF00018F653 /* DHHorizontalLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHHorizontalLayoutManager.h; sourceTree = "<group>"; };
+		689A35661BECAAF00018F653 /* DHHorizontalLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHHorizontalLayoutManager.m; sourceTree = "<group>"; };
+		689A35671BECAAF00018F653 /* DHHorizontalLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHHorizontalLayoutView.h; sourceTree = "<group>"; };
+		689A35681BECAAF00018F653 /* DHHorizontalLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHHorizontalLayoutView.m; sourceTree = "<group>"; };
+		689A35691BECAAF00018F653 /* DHLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLayout.h; sourceTree = "<group>"; };
+		689A356A1BECAAF00018F653 /* DHLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLayoutManager.h; sourceTree = "<group>"; };
+		689A356B1BECAAF00018F653 /* DHLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLayoutManager.m; sourceTree = "<group>"; };
+		689A356C1BECAAF00018F653 /* DHLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLayoutView.h; sourceTree = "<group>"; };
+		689A356D1BECAAF00018F653 /* DHLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLayoutView.m; sourceTree = "<group>"; };
+		689A356E1BECAAF00018F653 /* DHVerticalLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHVerticalLayoutManager.h; sourceTree = "<group>"; };
+		689A356F1BECAAF00018F653 /* DHVerticalLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHVerticalLayoutManager.m; sourceTree = "<group>"; };
+		689A35701BECAAF00018F653 /* DHVerticalLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHVerticalLayoutView.h; sourceTree = "<group>"; };
+		689A35711BECAAF00018F653 /* DHVerticalLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHVerticalLayoutView.m; sourceTree = "<group>"; };
+		689A35721BECAAF00018F653 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		689A35731BECAAF00018F653 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		689A35741BECAAF00018F653 /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
+		689A35751BECAAF00018F653 /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +113,11 @@
 		689A35481BECA6C00018F653 /* helper_ios */ = {
 			isa = PBXGroup;
 			children = (
+				689A35601BECAAF00018F653 /* CircularProgressBar.m */,
+				689A35611BECAAF00018F653 /* CircularProgressBar.h */,
+				689A35621BECAAF00018F653 /* TimeHelper.h */,
+				689A35631BECAAF00018F653 /* TimeHelper.m */,
+				689A35641BECAAF00018F653 /* DHLayout */,
 				689A35491BECA6C00018F653 /* helper_ios.h */,
 				689A354B1BECA6C00018F653 /* Info.plist */,
 			);
@@ -86,6 +133,30 @@
 			path = helper_iosTests;
 			sourceTree = "<group>";
 		};
+		689A35641BECAAF00018F653 /* DHLayout */ = {
+			isa = PBXGroup;
+			children = (
+				689A35651BECAAF00018F653 /* DHHorizontalLayoutManager.h */,
+				689A35661BECAAF00018F653 /* DHHorizontalLayoutManager.m */,
+				689A35671BECAAF00018F653 /* DHHorizontalLayoutView.h */,
+				689A35681BECAAF00018F653 /* DHHorizontalLayoutView.m */,
+				689A35691BECAAF00018F653 /* DHLayout.h */,
+				689A356A1BECAAF00018F653 /* DHLayoutManager.h */,
+				689A356B1BECAAF00018F653 /* DHLayoutManager.m */,
+				689A356C1BECAAF00018F653 /* DHLayoutView.h */,
+				689A356D1BECAAF00018F653 /* DHLayoutView.m */,
+				689A356E1BECAAF00018F653 /* DHVerticalLayoutManager.h */,
+				689A356F1BECAAF00018F653 /* DHVerticalLayoutManager.m */,
+				689A35701BECAAF00018F653 /* DHVerticalLayoutView.h */,
+				689A35711BECAAF00018F653 /* DHVerticalLayoutView.m */,
+				689A35721BECAAF00018F653 /* UIView+Layout.h */,
+				689A35731BECAAF00018F653 /* UIView+Layout.m */,
+				689A35741BECAAF00018F653 /* UIView+Sizes.h */,
+				689A35751BECAAF00018F653 /* UIView+Sizes.m */,
+			);
+			path = DHLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +164,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689A357E1BECAAF00018F653 /* DHLayout.h in Headers */,
+				689A35811BECAAF00018F653 /* DHLayoutView.h in Headers */,
+				689A357A1BECAAF00018F653 /* DHHorizontalLayoutManager.h in Headers */,
+				689A35851BECAAF00018F653 /* DHVerticalLayoutView.h in Headers */,
+				689A35771BECAAF00018F653 /* CircularProgressBar.h in Headers */,
+				689A357C1BECAAF00018F653 /* DHHorizontalLayoutView.h in Headers */,
+				689A35891BECAAF00018F653 /* UIView+Sizes.h in Headers */,
+				689A35781BECAAF00018F653 /* TimeHelper.h in Headers */,
+				689A357F1BECAAF00018F653 /* DHLayoutManager.h in Headers */,
+				689A35871BECAAF00018F653 /* UIView+Layout.h in Headers */,
 				689A354A1BECA6C00018F653 /* helper_ios.h in Headers */,
+				689A35831BECAAF00018F653 /* DHVerticalLayoutManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +275,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689A35861BECAAF00018F653 /* DHVerticalLayoutView.m in Sources */,
+				689A35821BECAAF00018F653 /* DHLayoutView.m in Sources */,
+				689A35791BECAAF00018F653 /* TimeHelper.m in Sources */,
+				689A358A1BECAAF00018F653 /* UIView+Sizes.m in Sources */,
+				689A357B1BECAAF00018F653 /* DHHorizontalLayoutManager.m in Sources */,
+				689A357D1BECAAF00018F653 /* DHHorizontalLayoutView.m in Sources */,
+				689A35881BECAAF00018F653 /* UIView+Layout.m in Sources */,
+				689A35801BECAAF00018F653 /* DHLayoutManager.m in Sources */,
+				689A35841BECAAF00018F653 /* DHVerticalLayoutManager.m in Sources */,
+				689A35761BECAAF00018F653 /* CircularProgressBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +402,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				INFOPLIST_FILE = helper_ios/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -326,6 +419,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				INFOPLIST_FILE = helper_ios/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
