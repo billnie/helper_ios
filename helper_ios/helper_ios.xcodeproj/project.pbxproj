@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6851E20B1BF9A64900D6E0D5 /* ALBatteryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6851E1FE1BF9A64900D6E0D5 /* ALBatteryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6851E20C1BF9A64900D6E0D5 /* ALBatteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851E1FF1BF9A64900D6E0D5 /* ALBatteryView.m */; };
+		6851E20D1BF9A64900D6E0D5 /* battery.png in Resources */ = {isa = PBXBuildFile; fileRef = 6851E2011BF9A64900D6E0D5 /* battery.png */; };
+		6851E20E1BF9A64900D6E0D5 /* battery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6851E2021BF9A64900D6E0D5 /* battery@2x.png */; };
+		6851E20F1BF9A64900D6E0D5 /* UIView+ALQuickFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6851E2041BF9A64900D6E0D5 /* UIView+ALQuickFrame.h */; };
+		6851E2111BF9A64900D6E0D5 /* ASValuePopUpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6851E2071BF9A64900D6E0D5 /* ASValuePopUpView.h */; };
+		6851E2121BF9A64900D6E0D5 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851E2081BF9A64900D6E0D5 /* ASValuePopUpView.m */; };
+		6851E2131BF9A64900D6E0D5 /* ASValueTrackingSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6851E2091BF9A64900D6E0D5 /* ASValueTrackingSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6851E2141BF9A64900D6E0D5 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851E20A1BF9A64900D6E0D5 /* ASValueTrackingSlider.m */; };
 		689A354A1BECA6C00018F653 /* helper_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35491BECA6C00018F653 /* helper_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		689A35511BECA6C00018F653 /* helper_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A35461BECA6C00018F653 /* helper_ios.framework */; };
 		689A35561BECA6C00018F653 /* helper_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35551BECA6C00018F653 /* helper_iosTests.m */; };
@@ -34,6 +43,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6851E25A1BF9A83A00D6E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6851E21E1BF9A83900D6E0D5;
+			remoteInfo = com.test.helper;
+		};
+		6851E25C1BF9A83A00D6E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6851E2371BF9A83900D6E0D5;
+			remoteInfo = com.test.helperTests;
+		};
+		6851E25E1BF9A83A00D6E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6851E2421BF9A83900D6E0D5;
+			remoteInfo = com.test.helperUITests;
+		};
 		689A35521BECA6C00018F653 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 689A353D1BECA6C00018F653 /* Project object */;
@@ -44,6 +74,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6851E1FE1BF9A64900D6E0D5 /* ALBatteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBatteryView.h; sourceTree = "<group>"; };
+		6851E1FF1BF9A64900D6E0D5 /* ALBatteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBatteryView.m; sourceTree = "<group>"; };
+		6851E2011BF9A64900D6E0D5 /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery.png; sourceTree = "<group>"; };
+		6851E2021BF9A64900D6E0D5 /* battery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery@2x.png"; sourceTree = "<group>"; };
+		6851E2041BF9A64900D6E0D5 /* UIView+ALQuickFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ALQuickFrame.h"; sourceTree = "<group>"; };
+		6851E2051BF9A64900D6E0D5 /* UIView+ALQuickFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ALQuickFrame.m"; sourceTree = "<group>"; };
+		6851E2071BF9A64900D6E0D5 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		6851E2081BF9A64900D6E0D5 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		6851E2091BF9A64900D6E0D5 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		6851E20A1BF9A64900D6E0D5 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = com.test.helper.xcodeproj; path = com.test.helper/com.test.helper.xcodeproj; sourceTree = "<group>"; };
 		689A35461BECA6C00018F653 /* helper_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = helper_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		689A35491BECA6C00018F653 /* helper_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helper_ios.h; sourceTree = "<group>"; };
 		689A354B1BECA6C00018F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,9 +133,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6851E1FD1BF9A64900D6E0D5 /* ALBatteryView */ = {
+			isa = PBXGroup;
+			children = (
+				6851E1FE1BF9A64900D6E0D5 /* ALBatteryView.h */,
+				6851E1FF1BF9A64900D6E0D5 /* ALBatteryView.m */,
+				6851E2001BF9A64900D6E0D5 /* Resources */,
+				6851E2031BF9A64900D6E0D5 /* UIView+ALQuickFrame */,
+			);
+			path = ALBatteryView;
+			sourceTree = "<group>";
+		};
+		6851E2001BF9A64900D6E0D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6851E2011BF9A64900D6E0D5 /* battery.png */,
+				6851E2021BF9A64900D6E0D5 /* battery@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6851E2031BF9A64900D6E0D5 /* UIView+ALQuickFrame */ = {
+			isa = PBXGroup;
+			children = (
+				6851E2041BF9A64900D6E0D5 /* UIView+ALQuickFrame.h */,
+				6851E2051BF9A64900D6E0D5 /* UIView+ALQuickFrame.m */,
+			);
+			path = "UIView+ALQuickFrame";
+			sourceTree = "<group>";
+		};
+		6851E2061BF9A64900D6E0D5 /* ASValueTrackingSlider */ = {
+			isa = PBXGroup;
+			children = (
+				6851E2071BF9A64900D6E0D5 /* ASValuePopUpView.h */,
+				6851E2081BF9A64900D6E0D5 /* ASValuePopUpView.m */,
+				6851E2091BF9A64900D6E0D5 /* ASValueTrackingSlider.h */,
+				6851E20A1BF9A64900D6E0D5 /* ASValueTrackingSlider.m */,
+			);
+			path = ASValueTrackingSlider;
+			sourceTree = "<group>";
+		};
+		6851E2551BF9A83900D6E0D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6851E25B1BF9A83A00D6E0D5 /* com.test.helper.app */,
+				6851E25D1BF9A83A00D6E0D5 /* com.test.helperTests.xctest */,
+				6851E25F1BF9A83A00D6E0D5 /* com.test.helperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		689A353C1BECA6C00018F653 = {
 			isa = PBXGroup;
 			children = (
+				6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */,
 				689A35481BECA6C00018F653 /* helper_ios */,
 				689A35541BECA6C00018F653 /* helper_iosTests */,
 				689A35471BECA6C00018F653 /* Products */,
@@ -113,6 +205,8 @@
 		689A35481BECA6C00018F653 /* helper_ios */ = {
 			isa = PBXGroup;
 			children = (
+				6851E1FD1BF9A64900D6E0D5 /* ALBatteryView */,
+				6851E2061BF9A64900D6E0D5 /* ASValueTrackingSlider */,
 				689A35601BECAAF00018F653 /* CircularProgressBar.m */,
 				689A35611BECAAF00018F653 /* CircularProgressBar.h */,
 				689A35621BECAAF00018F653 /* TimeHelper.h */,
@@ -164,6 +258,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6851E2111BF9A64900D6E0D5 /* ASValuePopUpView.h in Headers */,
 				689A357E1BECAAF00018F653 /* DHLayout.h in Headers */,
 				689A35811BECAAF00018F653 /* DHLayoutView.h in Headers */,
 				689A357A1BECAAF00018F653 /* DHHorizontalLayoutManager.h in Headers */,
@@ -173,8 +268,11 @@
 				689A35891BECAAF00018F653 /* UIView+Sizes.h in Headers */,
 				689A35781BECAAF00018F653 /* TimeHelper.h in Headers */,
 				689A357F1BECAAF00018F653 /* DHLayoutManager.h in Headers */,
+				6851E20B1BF9A64900D6E0D5 /* ALBatteryView.h in Headers */,
+				6851E2131BF9A64900D6E0D5 /* ASValueTrackingSlider.h in Headers */,
 				689A35871BECAAF00018F653 /* UIView+Layout.h in Headers */,
 				689A354A1BECA6C00018F653 /* helper_ios.h in Headers */,
+				6851E20F1BF9A64900D6E0D5 /* UIView+ALQuickFrame.h in Headers */,
 				689A35831BECAAF00018F653 /* DHVerticalLayoutManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +343,12 @@
 			mainGroup = 689A353C1BECA6C00018F653;
 			productRefGroup = 689A35471BECA6C00018F653 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6851E2551BF9A83900D6E0D5 /* Products */;
+					ProjectRef = 6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				689A35451BECA6C00018F653 /* helper_ios */,
@@ -253,11 +357,37 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6851E25B1BF9A83A00D6E0D5 /* com.test.helper.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = com.test.helper.app;
+			remoteRef = 6851E25A1BF9A83A00D6E0D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6851E25D1BF9A83A00D6E0D5 /* com.test.helperTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = com.test.helperTests.xctest;
+			remoteRef = 6851E25C1BF9A83A00D6E0D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6851E25F1BF9A83A00D6E0D5 /* com.test.helperUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = com.test.helperUITests.xctest;
+			remoteRef = 6851E25E1BF9A83A00D6E0D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		689A35441BECA6C00018F653 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6851E20E1BF9A64900D6E0D5 /* battery@2x.png in Resources */,
+				6851E20D1BF9A64900D6E0D5 /* battery.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +408,12 @@
 				689A35861BECAAF00018F653 /* DHVerticalLayoutView.m in Sources */,
 				689A35821BECAAF00018F653 /* DHLayoutView.m in Sources */,
 				689A35791BECAAF00018F653 /* TimeHelper.m in Sources */,
+				6851E2141BF9A64900D6E0D5 /* ASValueTrackingSlider.m in Sources */,
+				6851E2121BF9A64900D6E0D5 /* ASValuePopUpView.m in Sources */,
 				689A358A1BECAAF00018F653 /* UIView+Sizes.m in Sources */,
 				689A357B1BECAAF00018F653 /* DHHorizontalLayoutManager.m in Sources */,
 				689A357D1BECAAF00018F653 /* DHHorizontalLayoutView.m in Sources */,
+				6851E20C1BF9A64900D6E0D5 /* ALBatteryView.m in Sources */,
 				689A35881BECAAF00018F653 /* UIView+Layout.m in Sources */,
 				689A35801BECAAF00018F653 /* DHLayoutManager.m in Sources */,
 				689A35841BECAAF00018F653 /* DHVerticalLayoutManager.m in Sources */,
@@ -468,6 +601,7 @@
 				689A355C1BECA6C00018F653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		689A355D1BECA6C00018F653 /* Build configuration list for PBXNativeTarget "helper_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +610,7 @@
 				689A355F1BECA6C00018F653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

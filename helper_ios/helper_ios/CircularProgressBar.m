@@ -30,6 +30,15 @@
     return self;
     
 }
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        [self initData];
+        [self initView];
+    }
+    return self;
+}
 
 - (void)initData {
     // 圆周为 2 * pi * R, 默认起始点于正右方向为 0 度， 改为正上为起始点
