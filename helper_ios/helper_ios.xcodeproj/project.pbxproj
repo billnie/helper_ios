@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		6851E26D1BF9D3BB00D6E0D5 /* Universal-helper_ios */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6851E26E1BF9D3BB00D6E0D5 /* Build configuration list for PBXAggregateTarget "Universal-helper_ios" */;
+			buildPhases = (
+				6851E2711BF9D41E00D6E0D5 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Universal-helper_ios";
+			productName = "Universal-helper_ios";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		6851E20B1BF9A64900D6E0D5 /* ALBatteryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6851E1FE1BF9A64900D6E0D5 /* ALBatteryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6851E20C1BF9A64900D6E0D5 /* ALBatteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851E1FF1BF9A64900D6E0D5 /* ALBatteryView.m */; };
@@ -65,6 +79,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 6851E2421BF9A83900D6E0D5;
 			remoteInfo = com.test.helperUITests;
+		};
+		6851E2DA1BF9DCB000D6E0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6851E2881BF9D6D700D6E0D5;
+			remoteInfo = test_universal;
 		};
 		689A35521BECA6C00018F653 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -183,6 +204,7 @@
 				6851E25B1BF9A83A00D6E0D5 /* com.test.helper.app */,
 				6851E25D1BF9A83A00D6E0D5 /* com.test.helperTests.xctest */,
 				6851E25F1BF9A83A00D6E0D5 /* com.test.helperUITests.xctest */,
+				6851E2DB1BF9DCB000D6E0D5 /* test_universal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -332,6 +354,9 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = billnie;
 				TargetAttributes = {
+					6851E26D1BF9D3BB00D6E0D5 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					689A35451BECA6C00018F653 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -360,6 +385,7 @@
 			targets = (
 				689A35451BECA6C00018F653 /* helper_ios */,
 				689A354F1BECA6C00018F653 /* helper_iosTests */,
+				6851E26D1BF9D3BB00D6E0D5 /* Universal-helper_ios */,
 			);
 		};
 /* End PBXProject section */
@@ -386,6 +412,13 @@
 			remoteRef = 6851E25E1BF9A83A00D6E0D5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		6851E2DB1BF9DCB000D6E0D5 /* test_universal.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = test_universal.app;
+			remoteRef = 6851E2DA1BF9DCB000D6E0D5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -406,6 +439,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6851E2711BF9D41E00D6E0D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=helper_ios\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}/Headers\"\n\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Removes the binary and header from the resources folder.\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		689A35411BECA6C00018F653 /* Sources */ = {
@@ -448,6 +497,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		6851E26F1BF9D3BB00D6E0D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6851E2701BF9D3BB00D6E0D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		689A35581BECA6C00018F653 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -593,6 +656,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6851E26E1BF9D3BB00D6E0D5 /* Build configuration list for PBXAggregateTarget "Universal-helper_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6851E26F1BF9D3BB00D6E0D5 /* Debug */,
+				6851E2701BF9D3BB00D6E0D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		689A35401BECA6C00018F653 /* Build configuration list for PBXProject "helper_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

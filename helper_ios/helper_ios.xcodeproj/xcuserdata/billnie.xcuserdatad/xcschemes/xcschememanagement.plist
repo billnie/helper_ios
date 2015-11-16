@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Universal-helper_ios.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>helper_ios.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6851E26D1BF9D3BB00D6E0D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>689A35451BECA6C00018F653</key>
 		<dict>
 			<key>primary</key>
