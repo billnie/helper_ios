@@ -16,6 +16,8 @@
 		6851E2121BF9A64900D6E0D5 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851E2081BF9A64900D6E0D5 /* ASValuePopUpView.m */; };
 		6851E2131BF9A64900D6E0D5 /* ASValueTrackingSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6851E2091BF9A64900D6E0D5 /* ASValueTrackingSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6851E2141BF9A64900D6E0D5 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851E20A1BF9A64900D6E0D5 /* ASValueTrackingSlider.m */; };
+		6851E26B1BF9CCC800D6E0D5 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6851E2691BF9CCC800D6E0D5 /* TileView.m */; };
+		6851E26C1BF9CCC800D6E0D5 /* TileView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6851E26A1BF9CCC800D6E0D5 /* TileView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		689A354A1BECA6C00018F653 /* helper_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A35491BECA6C00018F653 /* helper_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		689A35511BECA6C00018F653 /* helper_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689A35461BECA6C00018F653 /* helper_ios.framework */; };
 		689A35561BECA6C00018F653 /* helper_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 689A35551BECA6C00018F653 /* helper_iosTests.m */; };
@@ -85,6 +87,8 @@
 		6851E2091BF9A64900D6E0D5 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
 		6851E20A1BF9A64900D6E0D5 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
 		6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = com.test.helper.xcodeproj; path = com.test.helper/com.test.helper.xcodeproj; sourceTree = "<group>"; };
+		6851E2691BF9CCC800D6E0D5 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
+		6851E26A1BF9CCC800D6E0D5 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
 		689A35461BECA6C00018F653 /* helper_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = helper_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		689A35491BECA6C00018F653 /* helper_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helper_ios.h; sourceTree = "<group>"; };
 		689A354B1BECA6C00018F653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -205,6 +209,8 @@
 		689A35481BECA6C00018F653 /* helper_ios */ = {
 			isa = PBXGroup;
 			children = (
+				6851E2691BF9CCC800D6E0D5 /* TileView.m */,
+				6851E26A1BF9CCC800D6E0D5 /* TileView.h */,
 				6851E1FD1BF9A64900D6E0D5 /* ALBatteryView */,
 				6851E2061BF9A64900D6E0D5 /* ASValueTrackingSlider */,
 				689A35601BECAAF00018F653 /* CircularProgressBar.m */,
@@ -271,6 +277,7 @@
 				6851E20B1BF9A64900D6E0D5 /* ALBatteryView.h in Headers */,
 				6851E2131BF9A64900D6E0D5 /* ASValueTrackingSlider.h in Headers */,
 				689A35871BECAAF00018F653 /* UIView+Layout.h in Headers */,
+				6851E26C1BF9CCC800D6E0D5 /* TileView.h in Headers */,
 				689A354A1BECA6C00018F653 /* helper_ios.h in Headers */,
 				6851E20F1BF9A64900D6E0D5 /* UIView+ALQuickFrame.h in Headers */,
 				689A35831BECAAF00018F653 /* DHVerticalLayoutManager.h in Headers */,
@@ -405,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6851E26B1BF9CCC800D6E0D5 /* TileView.m in Sources */,
 				689A35861BECAAF00018F653 /* DHVerticalLayoutView.m in Sources */,
 				689A35821BECAAF00018F653 /* DHLayoutView.m in Sources */,
 				689A35791BECAAF00018F653 /* TimeHelper.m in Sources */,
