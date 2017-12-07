@@ -17,44 +17,15 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/billnie/helper_ios"
 
-
-   s.license      = {:type => 'helper_ios', :text => <<-TXT
-                  This software is provided 'as-is', without any express or implied
-                  warranty. In no event will the authors be held liable for any damages
-                  arising from the use of this software. Permission is granted to anyone to
-                  use this software for any purpose, including commercial applications, and to
-                  alter it and redistribute it freely, subject to the following restrictions:
-                  1. The origin of this software must not be misrepresented; you must not
-                     claim that you wrote the original software. If you use this software
-                     in a product, an acknowledgment in the product documentation would be
-                     appreciated but is not required.
-                  2. Altered source versions must be plainly marked as such, and must not be
-                     misrepresented as being the original software.
-                  3. This notice may not be removed or altered from any source
-                     distribution.
-                TXT
-               }
-
+    s.license          = 'MIT'
 
   s.author             = { "billnie" => "706919534@qq.com" }
   # Or just: s.author    = "billnie"
   # s.authors            = { "billnie" => "706919534@qq.com" }
   # s.social_media_url   = "http://twitter.com/billnie"
 
+ s.ios.deployment_target = "8.0"
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
-
-  #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
 
   s.source       = { :git => "https://github.com/billnie/helper_ios.git", :tag => "0.0.1" }
 
@@ -62,6 +33,10 @@ Pod::Spec.new do |s|
   s.public_header_files = 'helper_ios/helper_ios/*.h'
   s.source_files  = "helper_ios", "helper_ios/helper_ios/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
+
+    s.resource_bundles = {
+    'helper_ios' => ['helper_ios/helper_ios/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+    }
 
 s.subspec 'ALBatteryView' do |ss|
     ss.source_files = 'helper_ios/helper_ios/ALBatteryView/**/*.{h,m}'
