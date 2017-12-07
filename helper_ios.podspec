@@ -59,31 +59,24 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/billnie/helper_ios.git", :tag => "0.0.1" }
 
 
-
-  s.source_files  = "helper_ios", "helper_ios/helper_ios/**/*.{h,m}"
+  s.public_header_files = 'helper_ios/helper_ios/*.h'
+  s.source_files  = "helper_ios", "helper_ios/helper_ios/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "helper_ios/helper_ios/**/*.h"
+s.subspec 'ALBatteryView' do |ss|
+    ss.source_files = 'helper_ios/helper_ios/ALBatteryView/**/*.{h,m}'
+    ss.public_header_files = 'helper_ios/helper_ios/ALBatteryView/**/*'
+end
 
+s.subspec 'ASValueTrackingSlider' do |ss|
+    ss.source_files = 'helper_ios/helper_ios/ASValueTrackingSlider/**/*.{h,m}'
+    ss.public_header_files = 'helper_ios/helper_ios/ASValueTrackingSlider/**/*'
+end
 
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
-  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Link your library with frameworks, or libraries. Libraries do not include
-  #  the lib prefix of their name.
-  #
-
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
-  # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
-
+s.subspec 'DHLayout' do |ss|
+    ss.source_files = 'helper_ios/helper_ios/DHLayout/**/*.{h,m}'
+    ss.public_header_files = 'helper_ios/helper_ios/DHLayout/**/*'
+end
 
 
 
