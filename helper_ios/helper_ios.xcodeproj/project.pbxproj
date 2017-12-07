@@ -97,6 +97,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660825581FD8DBF700CB9A97 /* helper_ios.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = helper_ios.podspec; path = ../helper_ios.podspec; sourceTree = "<group>"; };
 		6851E1FE1BF9A64900D6E0D5 /* ALBatteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBatteryView.h; sourceTree = "<group>"; };
 		6851E1FF1BF9A64900D6E0D5 /* ALBatteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALBatteryView.m; sourceTree = "<group>"; };
 		6851E2011BF9A64900D6E0D5 /* battery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = battery.png; sourceTree = "<group>"; };
@@ -212,6 +213,7 @@
 		689A353C1BECA6C00018F653 = {
 			isa = PBXGroup;
 			children = (
+				660825581FD8DBF700CB9A97 /* helper_ios.podspec */,
 				6851E2541BF9A83900D6E0D5 /* com.test.helper.xcodeproj */,
 				689A35481BECA6C00018F653 /* helper_ios */,
 				689A35541BECA6C00018F653 /* helper_iosTests */,
