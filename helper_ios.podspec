@@ -60,10 +60,10 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = "helper_ios", "helper_ios/**/*.{h,m}"
+  s.source_files  = "helper_ios", "helper_ios/helper_ios/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "helper_ios/**/*.h"
+  # s.public_header_files = "helper_ios/helper_ios/**/*.h"
 
 
   # s.resource  = "icon.png"
