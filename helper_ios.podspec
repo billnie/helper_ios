@@ -1,23 +1,10 @@
-#
-#  Be sure to run `pod spec lint helper_ios.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
 
 Pod::Spec.new do |s|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
 
   s.name         = "helper_ios"
   s.version      = "0.0.1"
-  s.summary      = "A short description of helper_ios."
+  s.summary      = "some of ios usefull function  helper_ios."
 
   s.description  = <<-DESC
                    A longer description of helper_ios in Markdown format.
@@ -28,8 +15,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/helper_ios"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/billnie/helper_ios"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -40,7 +26,22 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = {:type => 'helper_ios', :text => <<-TXT
+                  This software is provided 'as-is', without any express or implied
+                  warranty. In no event will the authors be held liable for any damages
+                  arising from the use of this software. Permission is granted to anyone to
+                  use this software for any purpose, including commercial applications, and to
+                  alter it and redistribute it freely, subject to the following restrictions:
+                  1. The origin of this software must not be misrepresented; you must not
+                     claim that you wrote the original software. If you use this software
+                     in a product, an acknowledgment in the product documentation would be
+                     appreciated but is not required.
+                  2. Altered source versions must be plainly marked as such, and must not be
+                     misrepresented as being the original software.
+                  3. This notice may not be removed or altered from any source
+                     distribution.
+                TXT
+               }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/helper_ios.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/billnie/helper_ios.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -122,15 +123,7 @@ Pod::Spec.new do |s|
   # s.libraries = "iconv", "xml2"
 
 
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 
 end
