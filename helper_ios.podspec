@@ -25,8 +25,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = {:type => 'helper_ios', :text => <<-TXT
+   s.license      = {:type => 'helper_ios', :text => <<-TXT
                   This software is provided 'as-is', without any express or implied
                   warranty. In no event will the authors be held liable for any damages
                   arising from the use of this software. Permission is granted to anyone to
