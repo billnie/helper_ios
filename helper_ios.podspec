@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
 
   s.source       = { :git => "https://github.com/billnie/helper_ios.git", :tag => "0.0.1" }
-
+    s.dependency = 'boost', :git => 'https://github.com/billnie/ios_boost.git'
 
   s.public_header_files = 'helper_ios/helper_ios/*.h'
   s.source_files  = "helper_ios", "helper_ios/helper_ios/*.{h,m}"
