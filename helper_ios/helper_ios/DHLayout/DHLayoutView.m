@@ -34,7 +34,7 @@
 {
     if(layoutManager && [layoutManager isKindOfClass:[DHLayoutManager class]] && layoutManager != _layoutManager){
  //       [_layoutManager release];
-        _layoutManager = [layoutManager retain];
+ //       _layoutManager = [layoutManager retain];
         _layoutManager.paddingTop = _paddingTop;
         _layoutManager.paddingLeft = _paddingLeft;
         _layoutManager.paddingBottom = _paddingBottom;
@@ -70,7 +70,7 @@
 - (void)dealloc
 {
 //    [_layoutManager release];
-    [super dealloc];
+//    [super dealloc];
 }
 
 @end
