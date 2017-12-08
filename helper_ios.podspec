@@ -53,10 +53,5 @@ s.subspec 'DHLayout' do |ss|
     ss.public_header_files = 'helper_ios/helper_ios/DHLayout/**/*'
 end
 
-s.subspec 'boost' do |ss|
-    ss.source_files = { :git => "https://github.com/billnie/ios_boost.git" }
-#    ss.public_header_files = 'helper_ios/helper_ios/DHLayout/**/*'
-end
-
 
 end
