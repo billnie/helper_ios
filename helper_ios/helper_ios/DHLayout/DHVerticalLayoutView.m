@@ -42,7 +42,7 @@
     layoutManager.columnWidth = _columnWidth;
     layoutManager.space = _space;
     [self setLayoutManager:layoutManager];
-    [layoutManager release];
+ //   [layoutManager release];
 }
 
 - (void)setColumnWidth:(float)columnWidth

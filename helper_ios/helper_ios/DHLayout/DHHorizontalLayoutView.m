@@ -46,7 +46,7 @@
     layoutManager.lineHeight = _lineHeight;
     layoutManager.space = _space;
     [self setLayoutManager:layoutManager];
-    [layoutManager release];
+ //   [layoutManager release];
 }
 
 - (void)setLineHeight:(float)lineHeight
